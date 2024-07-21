@@ -1,0 +1,14 @@
+public class FormasJLVG {
+    public String color;
+
+    public FormasJLVG() {
+    }
+
+    public void establecerColor(String color) {
+        this.color = color;
+    }
+
+    public void dibujar() {
+        System.out.println("Dibujando una forma");
+    }
+}
