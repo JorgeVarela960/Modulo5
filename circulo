@@ -1,0 +1,16 @@
+public class CirculoJLVG extends FormasJLVG {
+    public double radio;
+
+    public CirculoJLVG(double radio) {
+        this.radio = radio;
+    }
+
+    public void dibujar() {
+        System.out.println("Dibujando un círculo");
+    }
+
+    public void calcularRadio() {
+        System.out.println("El radio del círculo es: " + radio);
+    }
+}
+
