@@ -1,0 +1,15 @@
+public class TrianguloJLVG extends FormasJLVG {
+    public double angulo;
+
+    public TrianguloJLVG(double angulo) {
+        this.angulo = angulo;
+    }
+
+    public void dibujar() {
+        System.out.println("Dibujando un triángulo");
+    }
+
+    public void calcularArea() {
+        System.out.println("El área del triángulo con ángulo " + angulo + " es calculada");
+    }
+}
