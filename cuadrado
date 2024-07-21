@@ -1,0 +1,15 @@
+public class CuadradoJLVG extends FormasJLVG {
+    public double area;
+
+    public CuadradoJLVG(double area) {
+        this.area = area;
+    }
+
+    public void dibujar() {
+        System.out.println("Dibujando un cuadrado");
+    }
+
+    public void calcularArea() {
+        System.out.println("El área del cuadrado es: " + area);
+    }
+}
